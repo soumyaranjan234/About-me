@@ -1,0 +1,129 @@
+html {
+    min-width: 350px;
+}
+body {
+    background-color:goldenrod;
+    margin: 10px;
+    padding: 10px;
+    min-width: 300px;
+}
+.container, .gallery {
+    background-image: url("pexel.jpeg");
+    color: rgb(38, 235, 12);
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+}
+.contact {
+    background-color:bisque;
+    padding: 10px;
+    border-radius: 10px;
+    /* min-width: 300px; */
+}
+
+.container1,.container2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.items {
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 20px;
+    align-items: center;
+}
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: space-around;
+}
+
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    margin: 10px;
+    border: 5px solid rgb(225, 145, 225);
+    border-radius: 10px;
+    align-items:space-around;
+    padding: 10px;
+}
+#table1 ,#table4 {
+   flex-basis: 50%;
+   
+   flex-grow: 2;
+} 
+.align {
+    text-align: center;
+    color: rgb(181, 136, 80);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 40px;   
+}
+.header {
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 50px;
+}
+.foot {
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.link {
+    margin: 17%;
+    font-size: 30px;   
+}
+
+/* @media all and (max-width:300px) {
+    .image {
+        width: auto;    
+    }
+} */
+/* @media all and (min-width: 301px), (max-width:1000px) {
+    .image {
+        width: 200px;
+        height: 200px;    
+    }
+} */
+@media all and (min-width: 930px), (max-width:300px) {
+    .instagram:after {
+        content: "Instagram";
+        
+    }
+}
+@media all and (min-width: 930px), (max-width:300px){
+    .facebook:after {
+        content: "Facebook";
+        
+    }
+}
+@media all and (min-width: 930px),(max-width:300px){
+    .twitter:after {
+        content: "Twitter";
+        
+    }
+}
+@media all and (min-width: 930px), (max-width:300px) {
+    .e-mail:after {
+        content: "Email";
+        
+    }
+}
+
+.image {
+    border: 5px solid rgb(214, 187, 153);
+    border-radius: 5px;
+}
+
+.article {
+    font-size: 20px;
+}
